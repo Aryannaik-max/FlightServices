@@ -1,0 +1,20 @@
+{
+  "name": "flightservice",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000F\u0000l\u0000i\u0000g\u0000h\u0000t\u0000S\u0000e\u0000r\u0000v\u0000i\u0000c\u0000e\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3"
+  }
+}
