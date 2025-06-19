@@ -5,9 +5,8 @@ const { CrudRepository } = require('./index');
 class CityRepository extends CrudRepository {
 
     constructor(){
-
         super(City);
-
+        this.City = City;
     }
 
     async getAllCity(filter){

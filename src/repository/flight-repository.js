@@ -5,6 +5,7 @@ const { CrudRepository } = require('./index');
 class FlightRepository extends CrudRepository {
     constructor(){
         super(flight);
+        this.flight = flight;
     }
     #createFilter(data){
         let filter = {};
