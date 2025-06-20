@@ -6,7 +6,7 @@ class FlightService extends CrudService {
         super(FlightRepository);
         this.flightRepository = new FlightRepository(); 
     }
-    async getAllFlights(filter) {
+    async getAll(filter) {
         try {
             const result = await this.flightRepository.getAll(filter);
             return result;

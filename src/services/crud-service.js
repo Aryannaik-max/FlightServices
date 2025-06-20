@@ -47,7 +47,7 @@ class CrudService {
 
     async getAll(){
         try {
-            const result = await this.cityRepository.getAll()
+            const result = await this.repo.getAll()
             return result;
         } catch (error) {
             console.log("Something went wrong at service layer");

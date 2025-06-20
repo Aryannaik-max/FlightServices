@@ -1,6 +1,6 @@
-const { flight } = require('../model/index');
+const { flight } = require('../models/index');
 const { Op } = require('sequelize');
-const { CrudRepository } = require('./index');
+const  CrudRepository = require('./crud-repository');
 
 class FlightRepository extends CrudRepository {
     constructor(){
